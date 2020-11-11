@@ -14,7 +14,7 @@ namespace COVID19PROJECT
         {
 
             string province_name;
-            dynamic response1 = (JObject)await Program.MakeRequest("http://api.weatherstack.com/current?access_key=6db8cc63e632dd8e99e8d06ce9751c55&query=Toronto");
+            dynamic response1 = (JObject)await Program.MakeRequest("http://api.weatherstack.com/current?access_key=--------------------------------&query=Toronto");
             dynamic response = (JObject) await Program.MakeRequest("https://services9.arcgis.com/pJENMVYPQqZZe20v/arcgis/rest/services/" +
                 "Join_Features_to_Enriched_Population_Case_Data_By_Province_Polygon/FeatureServer/0/query?where=1%3D1&outFields=NAME," +
                 "Abbreviation,Recovered,Tests,Last_Updated,ActiveCases,Hospitalized,ICU,ICUVent,Deaths,Case_Total&returnGeometry=false&outSR=4326&f=json");
