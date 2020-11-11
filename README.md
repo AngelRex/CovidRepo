@@ -1,10 +1,14 @@
 # CovidRepo
-In this simple C# ConsoleApp, I have tried to collect COVID 19 information and weather information from public APIs.
+In this simple C# ConsoleApp, I have tried to collect COVID 19 information and weather information of CANADA from public APIs.
 http://api.weatherstack.com/current?access_key=????????????????????????&query=Toronto
 https://services9.arcgis.com/pJENMVYPQqZZe20v/arcgis/rest/services/
 Collected the data which is send in JSON format.
 Used C# JSON Object to access the values.
 Install these packages Newtonsoft.Json, System.Net.Http, System.Threading.Tasks, System.Collections.Generic for successful execution
+
+The program will prompt you to "Enter the Province Name or Abbreviation for COVID 19 UPDATE" you can enter the abbreviation or the 
+full name of any Canadian Province (14 provinces). In the following output I have given "on" for ontario.... you can try ab, bc etc
+
 THE OUTPUT WILL BE LIKE THIS
 
 
